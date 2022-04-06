@@ -3,7 +3,7 @@ import './Lognav.css'
 import { Navbar } from 'react-bootstrap'
 export default function Lognav() {
   return (
-    <div>
+    <div id="lognav">
        <div>
     <Navbar>
     <div id="b"> 

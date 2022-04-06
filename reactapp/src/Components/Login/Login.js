@@ -28,7 +28,7 @@ export default function Login() {
 
     
     <p className="forgot-password text-right">
-        New user? <a href="/sign-up" id="sign">Signup</a>
+        New user? <a href="/signup" id="sign">Signup</a>
     
     </p><br/>
     <button type="submit" id="loginButton" className="btn btn-dark btn-lg btn-block">Login</button>

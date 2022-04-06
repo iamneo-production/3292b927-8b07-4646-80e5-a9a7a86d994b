@@ -1,27 +1,22 @@
-import React, { useState } from 'react'
+import React , {useState} from 'react'
 import { Col, Row, Stack ,Button,Modal,Dropdown} from 'react-bootstrap'
 import './Dgrid.css'
-// import Dstatus from './Dstatus'
 import { FaEdit } from 'react-icons/fa'
-const Admin = () => {
-  let Id = useState()
-  let [issue] = useState()
-  let [CreatedOn] = useState()
-  let [dev] = useState()
-  let [status] = useState()
-  };
-class AdminGrid extends React.Component{
- 
-  state={
-    isopen: false,
-   
-  };
-  openModel=() => this.setState({isOpen:true});
-  closeModel=() => this.setState({isOpen:false});
-  render(){
-    
 
+export default function Dgrid(){
  
+  const [openModel , setOpenModel] = useState(false);
+  const Admin = {
+    Id : "",
+    issue : "",
+    CreatedOn : "",
+    dev: "",
+    status : ""
+    };
+
+
+
+
   return (
     <>
     
@@ -53,21 +48,22 @@ class AdminGrid extends React.Component{
             <div >
               <Row>
                 <Col md={2}>
-     <Modal show={this.state.isOpen} onHide={this.closeModel} className="inner93" >
+     <Modal show={openModel} onHide={openModel} className="inner93" >
         <Modal.Body className="inner100">
          <div  className="inner4"  id="twelve"> 
          
           <div id="selectStatus">
             
            {/* <Dropdown id="twe"> */}
-           
+          
            <Dropdown >
+             
            <Dropdown.Toggle id="twe">
           <i> Select the Status</i>
           </Dropdown.Toggle>
            <Dropdown.Menu className="inner111">
-           <Dropdown.Item href="/action-1" id="asap1"><p id="aaa">Active</p></Dropdown.Item>
-           <Dropdown.Item href="/action-2" id="asap2"><p id="bbb">Solved</p></Dropdown.Item>
+           <Dropdown.Item href="/" eventKey="1" id="asap1"><p id="aaa">Active</p></Dropdown.Item>
+           <Dropdown.Item href="/" eventKey="2" id="asap2"><p id="bbb">Solved</p></Dropdown.Item>
            </Dropdown.Menu>
            </Dropdown>
            
@@ -90,7 +86,7 @@ class AdminGrid extends React.Component{
     </Col>
               </Row>
     </div>
-             <Button id="bu"  onClick={this.openModel}>
+             <Button id="bu"  onClick={()=>setOpenModel(!openModel)}>
           <FaEdit/>
           
           </Button>
@@ -102,7 +98,4 @@ class AdminGrid extends React.Component{
     
     </>
   )
-  }
 }
-
-export default AdminGrid

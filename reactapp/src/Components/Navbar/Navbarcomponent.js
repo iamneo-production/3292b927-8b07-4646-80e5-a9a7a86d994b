@@ -5,7 +5,7 @@ import {Navbar,Container,Nav} from 'react-bootstrap'
 export default function Navbarcomponent() {
   return (
     <>
-    <div className="container-fluid">
+    <div className="container-fluid" id="liss">
     <div className="b">
     <Navbar>
     <div className="basic"> <h3>Grievance Cell</h3> </div>
@@ -17,8 +17,8 @@ export default function Navbarcomponent() {
       
       <Nav id="c">
         <Nav.Link href="#" id="homebutton">Home</Nav.Link>
-        <Nav.Link href="#" id="addButton">Add+</Nav.Link>
-        <button id="logoutButton" className="btn btn-primary">Logout</button>
+        <Nav.Link href="/addissue" id="addButton">Add+</Nav.Link>
+        <Nav.Link href="/" id="logoutButton">Logout</Nav.Link>
        
       </Nav>
     </Navbar.Collapse>

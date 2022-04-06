@@ -1,16 +1,16 @@
 import React from 'react'
-//import './signup.css'
+import './signup.css'
 import Lognav from '../Lognav/Lognav'
 
-function Validate() {
-    var password = document.getElementById("password").value;
-    var confirmPassword = document.getElementById("confirmPassword").value;
-    if (password != confirmPassword) {
-        alert("Passwords do not match.");
-        return false;
-    }
-    return true;
-};
+// function Validate() {
+//     var password = document.getElementById("password").value;
+//     var confirmPassword = document.getElementById("confirmPassword").value;
+//     if (password !== confirmPassword) {
+//         alert("Passwords do not match.");
+//         return false;
+//     }
+//     return true;
+// };
 
 
 
@@ -20,7 +20,7 @@ export default function Signup() {
   return (
       <>
     <Lognav/>
-    <div className="outer">
+    <div className="outer" id="loginBox">
     <div className="inner">
     
     <form>
@@ -55,8 +55,8 @@ export default function Signup() {
 
                 
                 <p className="forgot-password text-right">
-                    Already a user? <a href="/" id="signinLink">Login</a></p>  <br/>
-                    <button type="submit" id="submitButton" className="btn btn-dark btn-lg btn-block" onClick={Validate.password}>Submit</button>
+                    Already a user? <a href="/login" id="signinLink">Login</a></p>  <br/>
+                    <button type="submit" id="submitButton" className="btn btn-dark btn-lg btn-block" >Submit</button>
                 
             </form>
             </div>

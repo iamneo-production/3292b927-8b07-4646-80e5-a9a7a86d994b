@@ -49,19 +49,21 @@
 
 
 #asap1 {
-    background-color:rgb(253, 229, 14);
+    background-color:rgb(233, 255, 151);
    /* padding: 40px 55px 45px 55px; */
     border-radius: 15px;
-    width: auto;
+    width: 200px;
     color: black;
     height: 50px;
 }
 #asap2 {
-    background-color:rgb(253, 229, 14);
+    background-color:rgb(233, 255, 151);
     margin-top: 20px;
     border-radius: 15px;
     color: black;
     height: 50px;
+    width: 200px;
+
 }
 
 
@@ -87,14 +89,14 @@
 }
 #twe{
     width:auto;
-    background-color:rgb(253, 229, 14);
+    background-color:rgb(233, 255, 151);
     color:rgb(5, 5, 5);
     font-size: 20px;
 
 }
 
 #issueDescription{
-    background-color:rgb(253, 229, 14);
+    background-color:rgb(233, 255, 151);
     border-radius: 10px;
     height: 100px;
 color: black;
@@ -160,20 +162,22 @@ color: rgb(141, 4, 4);
     color: white;
     width: auto;
     padding:10px;
-    margin-left: 160px;
+    margin-left: 180px;
     /* margin: 20px 10px 20px 10px; */
     /* margin-left: 150px; */
 }
 #aaa{
-    font-size: 30px;
+    font-size: 15px;
     margin-left: 50px;
     font-style: italic;
+    margin-top: 10px;
     /* margin-top: 5px; */
 }
 #bbb{
-    font-size: 30px;
+    font-size: 15px;
     font-style: italic;
     margin-left: 50px;
-    margin-right: 50px;
+    
+    margin-top: 10px;
     /* margin-top: 5px; */
 }

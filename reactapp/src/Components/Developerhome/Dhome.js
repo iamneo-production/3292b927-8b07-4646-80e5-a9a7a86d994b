@@ -1,8 +1,8 @@
 import React from 'react'
 import { Row,Col,Nav,Tab,Card } from 'react-bootstrap'
-import Navbar from '../Navbar/Navbarcomponent'
+import Navbarcomponent from '../Navbar/Navbarcomponent'
 import './Dhome.css'
-import AdminGrid from './Dgrid'
+import Dgrid from './Dgrid'
 export default function Dhome() {
 
   const count = 10;
@@ -11,7 +11,7 @@ export default function Dhome() {
   
   return (
     <>
-     <Navbar/>
+     <Navbarcomponent/>
      <div id="upateHomeBody">
         <Row>
           <Col md={9}>
@@ -34,7 +34,7 @@ export default function Dhome() {
               <Col>
               <Tab.Content>
                 <Tab.Pane eventKey="link1" >
-                  <AdminGrid/>
+                  <Dgrid/>
                 </Tab.Pane>
                 <Tab.Pane eventKey="link2" >
                   

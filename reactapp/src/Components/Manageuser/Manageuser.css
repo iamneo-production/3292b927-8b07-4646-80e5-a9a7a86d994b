@@ -1,0 +1,47 @@
+/* .bg_image {
+        background-image: "url("+"{https://images.pexels.com/photos/4058667/pexels-photo-4058667.jpeg?cs=srgb&dl=pexels-flower-power-4058667.jpg&fm=jpg}"+")";
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  
+  #upateDeveloperManage {
+      /* margin-top: 10px; */
+      border-color: aqua;
+      background-image: url('../Images/Manageuser.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      
+  }
+  #colin{
+      margin-top: 10px;
+      background: rgb(0, 0, 0);
+      color:rgb(236, 120, 242);
+      
+      font-size: 20px;
+  }
+  
+  #flea1{
+      align-items: center;
+      text-align: center;
+      margin-top: 10px;
+  }
+  #flea{
+      font-size: 20px;
+      margin-top: 10px;
+     
+  }
+  #flea2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+   
+}
+#flea3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+   
+}
+
