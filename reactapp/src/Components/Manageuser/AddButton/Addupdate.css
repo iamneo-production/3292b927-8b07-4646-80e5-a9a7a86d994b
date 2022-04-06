@@ -1,0 +1,44 @@
+.inner1001{
+    
+        width: 450px;
+        height: auto;
+        background: #d8a8eb;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        padding: 30px 35px 35px 35px;
+        border-radius: 15px;
+        transition: all .3s;
+        margin:200px 1250px ;
+      }
+ .inner1002{
+    
+        width: auto;
+        height: auto;
+        background: #d8a8eb;
+       
+        border-color: #d8a8eb;
+        /* border-radius: 10px; */
+        transition: all .3s;
+        
+      }
+#some{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+#mbutton{
+    background-color:rgb(0, 250, 87);
+    border-color:rgb(0, 250, 87);
+    width: auto;
+    margin:20px 10px 20px 10px;
+    margin-left: 125px;
+    height: 50px;
+}
+#AddButton{
+  background-color:rgb(0, 0, 0);
+  border-color:rgb(0, 250, 87);
+  color:aqua;
+  width: 60px;
+  margin-top: 10px;
+  height: 60px;
+}

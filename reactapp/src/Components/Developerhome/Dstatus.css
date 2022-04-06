@@ -1,0 +1,61 @@
+.inner4{
+    display:inline-block;
+    /* width: 750px; */
+    margin-top: 10px;
+  background: #1b1d1b;
+  /* box-shadow: 0px 14px 80px ; */
+  
+  /* padding: 40px 55px 45px 55px; */
+  border-radius: 15px;
+  transition: all .3s;
+  margin-left: 500px;
+  height:auto;
+}
+
+
+#asap1 {
+    background-color:#fc5ce1;
+    font-size: 20px;
+    
+    color: white;
+}
+#asap2 {
+    background-color:#660756;
+    font-size: 20px;
+
+    color: white;
+}
+
+
+#selectStatus{
+    background-color:rgb(163, 240, 189);
+    color: rgb(187, 12, 12);
+    border-radius: 10px;
+    height: 100px;
+    margin: 20px 10px 20px 10px;
+    width:250;
+    
+    
+    
+}
+#upateButton{
+    background-color:rgb(250, 0, 0);
+    border-color:rgb(250,0,0);
+    width: 100px;
+    margin:20px 10px 20px 10px;
+   
+}
+#twe{
+    width: 50px;
+    background-color:red;
+    color:red;
+}
+
+#issueDescription{
+    background-color:#fa0000;
+    border-radius: 10px;
+    height: 100px;
+
+    margin: 20px 10px 20px 10px;
+    width: 250px;
+}
